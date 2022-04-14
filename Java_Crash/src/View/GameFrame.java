@@ -18,11 +18,11 @@ public class GameFrame extends JFrame implements PanelChanger {
 	
 	
 	public static void main(String[] args) {
-		LoadingFrame l = new LoadingFrame();
-	   if(l.isActive()) {	
+//		LoadingFrame l = new LoadingFrame();
+//	   if(l.isActive()) {	
 		new GameFrame();
-		l.close();
-	   }
+//		l.close();
+//	   }
 	}
 	
 	public GameFrame(){
